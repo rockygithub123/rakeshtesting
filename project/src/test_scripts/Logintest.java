@@ -15,10 +15,12 @@ public class Logintest extends Base_Test {
 	{
 		//String username = Genric_Excel.getData("sheet1", 0, 0);
 		//String password = Genric_Excel.getData("sheet1", 1, 0);
-		Login l=new Login(driver);
+		/*Login l=new Login(driver);
 		l.setname("admin");
 		l.setpassword("manager"
 				);
+		l.setlogin();*/
+		driver.quit();
 		
 		
 		
